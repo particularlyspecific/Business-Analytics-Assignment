@@ -1,2 +1,2 @@
 SELECT MAX(fare_amount)
-FROM `bigquery-public-data.new_york_taxi_trips.tlc_yellow_trips_2018
+FROM `bigquery-public-data.new_york_taxi_trips.tlc_yellow_trips_2018`

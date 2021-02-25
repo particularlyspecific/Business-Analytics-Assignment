@@ -1,0 +1,3 @@
+SELECT fee FROM `bigquery-public-data.crypto_bitcoin.transactions` cr
+left join `bigquery-public-data.crypto_bitcoin.transactions` ca
+on ca.size=cr.size
